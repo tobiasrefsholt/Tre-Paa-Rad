@@ -56,3 +56,18 @@ body {
     width: 2rem;
     height: 2rem;
 }
+
+.winner-text {
+    color: white;
+    text-transform: capitalize;
+}
+
+button {
+    margin-bottom: 2rem;
+    background-color: #027CB7;
+    border: none;
+    color: white;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    font-weight: bold;
+}
