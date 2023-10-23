@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212;
+    color: #ffffff90;
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 2rem;
+}
+
+.game-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 15vh);
+    grid-template-rows: repeat(3, 15vh);
+}
+
+.game-grid .game-cell {
+    border: solid 1px #ffffff20;
+}
