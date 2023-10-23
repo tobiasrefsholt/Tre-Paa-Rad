@@ -30,7 +30,7 @@ function checkForWinCondition() {
 
     /* Check diagonals */
     if (isEqual([r1c1, r2c2, r3c3])) return r1c1;
-    if (isEqual([r3c3, r2c2, r1c3])) return r3c3;
+    if (isEqual([r3c1, r2c2, r1c3])) return r3c1;
 
     return null;
 }
