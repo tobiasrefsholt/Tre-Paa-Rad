@@ -33,7 +33,7 @@ body {
 
 .game-grid .game-cell {
     border: solid 1px #ffffff20;
-    background-size: calc(100% - 4rem);
+    background-size: 80%;
     background-repeat: no-repeat;
     background-position: center;
 }
