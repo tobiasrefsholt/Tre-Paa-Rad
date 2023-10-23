@@ -20,10 +20,39 @@ body {
 
 .game-grid {
     display: grid;
-    grid-template-columns: repeat(3, 15vh);
-    grid-template-rows: repeat(3, 15vh);
+    grid-template-columns: repeat(3, 30vw);
+    grid-template-rows: repeat(3, 30vw);
+}
+
+@media screen and (min-width: 900px) {
+    .game-grid {
+        grid-template-columns: repeat(3, 15rem);
+        grid-template-rows: repeat(3, 15rem);
+    }
 }
 
 .game-grid .game-cell {
     border: solid 1px #ffffff20;
+    background-size: calc(100% - 4rem);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-circle {
+    background-image: url(svg/circle.svg);
+}
+
+.icon-cross {
+    background-image: url(svg/cross.svg);
+}
+
+.show-current-turn {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.current-turn-icon {
+    width: 2rem;
+    height: 2rem;
 }
